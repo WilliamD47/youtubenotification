@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my Showcase!
 
-You can use the [editor on GitHub](https://github.com/WilliamD47/youtubenotification/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+By using YouTubeNotification, you can get a notification whenever a specified channel of your choice uploads! No need to keep checking sub counts.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How does it work?
+Every 10 seconds, the Python script sends a request to Google's YouTube API. It searches for the specified channel. You will need an API key for this however so go get one [here](https://developers.google.com/maps/documentation/embed/get-api-key)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```py
 def notify(title, message):
