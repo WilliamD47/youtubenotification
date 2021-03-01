@@ -8,22 +8,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```py
+def notify(title, message):
+    if platform == "darwin":
+        t = '-title {!r}'.format(title)
+        m = '-message {!r}'.format(message)
+        os.system('terminal-notifier {}'.format(' '.join([m, t])))
+    elif platform == "win32":
+        notification.notify(title, message)
+    elif platform == "linux" or platform == "linux2":
+        subprocess.Popen(['notify-send', message])
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
