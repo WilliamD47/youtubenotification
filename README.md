@@ -14,4 +14,4 @@ from plyer import notification
 import subprocess
 ```
 
-If you have any questions please put them in issues or DM me on Discord WilliamD47#6710
+If you have any questions please put them in issues or DM me on Discord WilliamD47#6710.
