@@ -14,7 +14,7 @@ import subprocess
 
 
 try:
-    channelink = input("Please enter your YouTube channel link. Do NOT input a URL like https://www.youtube.com/williamd47 Instead, input the URL you get by going to your profile picture, then 'Your Channel'. \n")
+    channelink = input("Please enter your YouTube channel link. Do NOT input a URL like https://www.youtube.com/williamd47 Instead, input the URL you get by going to your profile picture on YouTube, then 'Your Channel'. \n")
 except Exception:
     print("Error. Please re run the program and try again.")
     exit()
