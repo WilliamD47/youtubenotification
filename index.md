@@ -3,7 +3,7 @@
 By using YouTubeNotification, you can get a notification whenever a specified channel of your choice uploads! No need to keep checking sub counts.
 
 ## How does it work?
-Every 10 seconds, the Python script sends a request to Google's YouTube API. It searches for the specified channel. You will need an API key for this however so go get one [here](https://developers.google.com/maps/documentation/embed/get-api-key)
+Every 10 seconds, the Python script sends a request to Google's YouTube API. It searches for the specified channel. You will need an API key for this however so go get one [here](https://developers.google.com/maps/documentation/embed/get-api-key) to use this.
 
 
 ```py
