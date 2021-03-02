@@ -17,5 +17,6 @@ def notify(title, message):
     elif platform == "linux" or platform == "linux2":
         subprocess.Popen(['notify-send', message])
 ```
-
+## What is the Minecraft Server feature?
+Again, every 10 seconds, the Python script sends a request to Minecraft's API. It searches for the specified Minecraft Server IP adress. You DO NOT need an API key for this to work!. It again sends a notification with the system above.
 For more details see the Git Repo.
