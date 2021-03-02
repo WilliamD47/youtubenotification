@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e004fb14-70a9-4ec0-aa9e-3824c9cae89c" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <workItem from="1614515124529" duration="5298000" />
       <workItem from="1614623765811" duration="218000" />
       <workItem from="1614630986937" duration="2676000" />
-      <workItem from="1614680713180" duration="1831000" />
+      <workItem from="1614680713180" duration="2081000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1614631376124</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614681172467</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Minecraft server support">
+      <created>1614683496005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614683496005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

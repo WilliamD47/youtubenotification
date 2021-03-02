@@ -1,6 +1,7 @@
 import os
 
 os.system("pip3 install plyer")
+os.system("pip3 install mcstatus")
 
 import urllib.request
 import json
@@ -15,7 +16,7 @@ from mcstatus import MinecraftServer
 
 try:
     channelink = input("Please enter your YouTube channel link. Do NOT input a URL like https://www.youtube.com/williamd47 Instead, input the URL you get by going to your profile picture, then 'Your Channel'. \n")
-    ip = input("Please enter a Minecraft Server IP \n")
+    ip = input("Please enter a Minecraft Server IP. You can use mc.william47.net if you need a test one.\n")
 except Exception:
     print("Error. Please re run the program and try again.")
     exit()
