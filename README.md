@@ -12,6 +12,7 @@ import time
 from sys import platform
 from plyer import notification
 import subprocess
+from mcstatus import MinecraftServer
 ```
 
 If you have any questions please put them in issues or DM me on Discord WilliamD47#6710.
